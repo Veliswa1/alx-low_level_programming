@@ -1,16 +1,18 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Prints numbers from 0 to 9.
  *
- * Return: alway returns 0
+ * Return: always 0 (Success)
  *
  */
 int main(void)
 {
-	char a;
+	int i;
 
-	for (a = 'z'; a >= 'a' ; a--)
-		putchar(a);
+	for (i = 48; i < 58; i++)
+	{
+		putchar(i);
+	}
 	putchar('\n');
 	return (0);
 }
